@@ -2,3 +2,5 @@
 ./2_cfrna-figure2/daa_output/*
 ./3_wbrna-figure3/dea_output/*
 *.rds
+
+./deconvolution/tabsap_subCells-allGenes_thresh-100000.COUNTS.csv
