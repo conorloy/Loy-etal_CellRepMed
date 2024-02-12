@@ -1,5 +1,3 @@
-
-## ignore outputs
-
-*/*output*/.rds
-
+*/plots/*
+./2_cfrna-figure2/daa_output/*
+./3_wbrna-figure3/dea_outputs/*
