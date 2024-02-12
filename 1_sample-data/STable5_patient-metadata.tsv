@@ -1,0 +1,229 @@
+PTID	Sex	Ethnicity	Race	Diagnosis	severity	cfdna	cfrna	wbrna	comorbidities	comorbidities_list	HospitalizationReason
+Patient1	Female	Non-Hispanic	Black/AA	MIS-C	3	0	1	0	0	NA	MISC
+Patient2	Male	Hispanic	Other/Declined	MIS-C	3	0	1	0	0	NA	MISC
+Patient3	Female	Non-Hispanic	Black/AA	MIS-C	3	0	1	1	0	NA	MISC
+Patient4	Female	Non-Hispanic	Black/AA	MIS-C	3	0	1	0	0	NA	MISC
+Patient5	Male	Non-Hispanic	Black/AA	MIS-C	3	0	1	0	0	NA	MISC
+Patient6	Male	Non-Hispanic	Other/Declined	MIS-C	3	0	1	1	1	asthma	MISC
+Patient7	Female	Hispanic	Other/Declined	MIS-C	3	0	1	1	0	NA	MISC
+Patient8	Male	Non-Hispanic	Black/AA	MIS-C	2	0	1	0	1	serious_mental_illness	MISC
+Patient9	Male	Non-Hispanic	Black/AA	MIS-C	3	0	1	0	0	NA	MISC
+Patient10	Male	Hispanic	Other/Declined	MIS-C	2	0	1	0	0	NA	MISC
+Patient11	Male	Hispanic	Other/Declined	MIS-C	3	0	1	0	0	NA	MISC
+Patient12	Female	Hispanic	Other/Declined	MIS-C	2	0	1	0	1	asthma	MISC
+Patient13	Male	Hispanic	Other/Declined	MIS-C	3	0	1	0	0	NA	MISC
+Patient14	Male	Non-Hispanic	Black/AA	MIS-C	3	0	1	0	0	NA	MISC
+Patient15	Male	Non-Hispanic	Black/AA	MIS-C	3	0	1	0	0	NA	MISC
+Patient16	Female	Non-Hispanic	Black/AA	MIS-C	3	0	0	1	0	NA	MISC
+Patient17	Female	Non-Hispanic	Black/AA	MIS-C	3	0	1	0	0	NA	MISC
+Patient18	Female	Hispanic	Other/Declined	MIS-C	3	0	1	0	0	NA	MISC
+Patient19	Male	Non-Hispanic	Black/AA	MIS-C	2	0	1	0	0	NA	MISC
+Patient20	Female	Non-Hispanic	Black/AA	MIS-C	3	0	1	0	0	NA	MISC
+Patient21	Male	Hispanic	Other/Declined	MIS-C	3	0	1	1	0	NA	MISC
+Patient22	Male	Hispanic	White	MIS-C	3	0	1	1	0	NA	MISC, Other
+Patient23	Female	Hispanic	Other/Declined	MIS-C	3	0	0	1	0	NA	MISC
+Patient24	Male	Hispanic	Other/Declined	MIS-C	3	0	0	1	1	chronic_kidney_disease	MISC
+Patient25	Female	Hispanic	Other/Declined	MIS-C	3	0	0	1	0	NA	MISC
+Patient26	Female	Non-Hispanic	Black/AA	MIS-C	2	0	0	1	0	NA	MISC
+Patient27	Female	Non-Hispanic	Black/AA	MIS-C	3	0	0	1	0	NA	MISC
+Patient28	Male	Non-Hispanic	Black/AA	MIS-C	3	0	0	1	1	asthma	MISC
+Patient29	Male	Non-Hispanic	Black/AA	MIS-C	3	0	0	1	0	NA	MISC
+Patient30	Female	Non-Hispanic	Black/AA	MIS-C	3	0	0	1	0	NA	MISC
+Patient31	Female	Hispanic	Black/AA	MIS-C	3	0	0	1	0	NA	MISC
+Patient32	Male	Non-Hispanic	White	MIS-C	3	0	0	1	0	NA	MISC
+Patient33	Male	Non-Hispanic	Black/AA	MIS-C	3	0	0	1	0	NA	MISC
+Patient34	Male	Non-Hispanic	Other/Declined	MIS-C	2	0	0	1	1	asthma	MISC
+Patient35	Male	Hispanic	Other/Declined	MIS-C	3	0	0	1	0	NA	MISC
+Patient38	Female	Non-Hispanic	White	COVID-19	3	1	0	1	0	NA	COVID-19
+Patient39	Male	Non-Hispanic	Black/AA	MIS-C	3	0	0	1	0	NA	MISC
+Patient40	Female	Non-Hispanic	Black/AA	MIS-C	3	1	0	1	0	NA	MISC
+Patient41	Male	Non-Hispanic	Black/AA	MIS-C	3	0	0	1	0	NA	MISC
+Patient42	Male	Hispanic	Other/Declined	COVID-19	2	0	0	1	0	NA	COVID-19
+Patient43	Female	Non-Hispanic	Black/AA	MIS-C	3	1	0	1	0	NA	MISC
+Patient44	Male	Non-Hispanic	Black/AA	COVID-19	1	1	0	0	0	NA	Other, Perforated appendicitis
+Patient45	Female	Non-Hispanic	Black/AA	MIS-C	3	1	0	1	0	NA	MISC
+Patient46	Male	Non-Hispanic	Other/Declined	MIS-C	3	1	0	1	0	NA	MISC
+Patient47	Male	Non-Hispanic	Black/AA	MIS-C	2	1	0	1	0	NA	MISC
+Patient48	Female	Non-Hispanic	Black/AA	MIS-C	3	1	0	1	0	NA	MISC
+Patient49	Female	Non-Hispanic	White	COVID-19	0	1	0	0	1	serious_mental_illness	Other, Suicide attempt
+Patient50	Female	Non-Hispanic	White	COVID-19	3	0	0	1	1	blind, asthma	COVID-19
+Patient51	Male	Non-Hispanic	Black/AA	COVID-19	3	0	0	1	1	asthma	COVID-19, Other, Status epilepticus in setting of COVID-19 (lowered seizure threshold)
+Patient52	Male	Hispanic	White	COVID-19	3	1	0	0	0	NA	COVID-19
+Patient53	Female	Non-Hispanic	Black/AA	COVID-19	3	0	0	1	1	asthma, diabetes	COVID-19
+Patient54	Female	Non-Hispanic	White	MIS-C	2	0	1	1	0	NA	MISC
+Patient55	Male	Non-Hispanic	White	MIS-C	2	0	1	1	0	NA	MISC
+Patient56	Male	Non-Hispanic	Black/AA	COVID-19	3	0	1	0	1	asthma	COVID-19, Other, Asthma exacerbation, rhino/enterovirus+
+Patient57	Male	Non-Hispanic	Asian	MIS-C	2	1	0	1	0	NA	MISC
+Patient58	Male	Non-Hispanic	White	MIS-C	2	0	1	1	1	asthma	MISC
+Patient59	Male	Hispanic	Other/Declined	MIS-C	3	0	1	0	0	NA	MISC
+Patient61	Male	Non-Hispanic	Asian	COVID-19	3	1	0	1	1	diabetes	COVID-19, Other, New diagnosis type 1 diabetes with DKA
+Patient62	Male	Hispanic	White	MIS-C	2	0	1	1	0	NA	MISC
+Patient63	Female	Non-Hispanic	Black/AA	COVID-19	2	1	0	1	1	diabetes	COVID-19, Other, New diagnosis diabetes with hyperglycemia
+Patient64	Female	Non-Hispanic	Black/AA	MIS-C	3	1	1	1	0	NA	MISC
+Patient65	Male	Hispanic	White	COVID-19	3	0	1	1	0	NA	COVID-19, Other, New diagnosis diabetes with DKA
+Patient66	Male	Non-Hispanic	White	COVID-19	3	1	0	1	1	diabetes	COVID-19, Other, DKA (known type 1 diabetes)
+Patient67	Female	Non-Hispanic	White	MIS-C	3	1	1	1	0	NA	MISC
+Patient68	Male	Non-Hispanic	Black/AA	MIS-C	3	1	1	1	1	asthma	MISC, Other, Lemierre's syndrome
+Patient69	Male	Non-Hispanic	Black/AA	MIS-C	2	1	1	1	0	NA	MISC
+Patient70	Male	Hispanic	White	MIS-C	3	1	1	1	1	asthma	MISC
+Patient71	Female	Non-Hispanic	White	MIS-C	2	0	1	1	1	serious_mental_illness	Other, Toxic shock syndrome
+Patient72	Male	Non-Hispanic	White	MIS-C	3	1	1	1	0	NA	MISC
+Patient73	Male	Hispanic	Black/AA	MIS-C	3	1	1	1	0	NA	MISC
+Patient74	Female	Hispanic	Other/Declined	COVID-19	3	0	0	1	0	NA	COVID-19
+Patient75	Female	Hispanic	Other/Declined	MIS-C	3	1	1	1	0	NA	MISC
+Patient76	Male	Non-Hispanic	Black/AA	MIS-C	3	0	1	1	1	immunosuppressive_conditio	MISC
+Patient77	Female	Non-Hispanic	Black/AA	MIS-C	3	1	1	1	0	NA	MISC
+Patient78	Male	Non-Hispanic	Black/AA	MIS-C	2	0	1	0	0	NA	MISC
+Patient79	Female	Non-Hispanic	White	MIS-C	2	1	1	1	0	NA	MISC
+Patient80	Male	Non-Hispanic	Black/AA	MIS-C	3	1	1	1	0	NA	MISC
+Patient81	Male	Hispanic	White	MIS-C	3	0	1	0	0	NA	MISC
+Patient82	Male	Hispanic	White	MIS-C	2	0	1	1	1	asthma	MISC
+Patient83	Male	Non-Hispanic	Black/AA	MIS-C	3	1	1	1	1	asthma	MISC
+Patient84	Male	Non-Hispanic	Black/AA	MIS-C	2	1	1	1	1	asthma	MISC
+Patient85	Male	Non-Hispanic	Black/AA	MIS-C	3	0	1	1	0	NA	MISC
+Patient86	Male	Non-Hispanic	Black/AA	MIS-C	3	1	1	1	0	NA	MISC
+Patient87	Male	Non-Hispanic	Black/AA	MIS-C	3	1	0	1	0	NA	MISC
+Patient88	Female	Non-Hispanic	Black/AA	MIS-C	2	0	1	0	0	NA	MISC
+Patient89	Male	Non-Hispanic	Black/AA	COVID-19	3	0	0	1	1	asthma, diabetes	COVID-19, Other, New diagnosis type 1 diabetes, DKA
+Patient90	Male	Non-Hispanic	White	MIS-C	3	0	0	1	0	NA	MISC
+Patient91	Male	Non-Hispanic	White	MIS-C	2	0	1	1	0	NA	MISC
+Patient92	Male	Non-Hispanic	Black/AA	MIS-C	3	1	1	1	1	asthma	MISC
+Patient93	Male	Non-Hispanic	Black/AA	MIS-C	3	1	1	1	0	NA	MISC
+Patient94	Male	Hispanic	White	MIS-C	2	1	0	1	0	NA	MISC
+Patient95	Female	Hispanic	White	MIS-C	3	0	1	0	1	asthma	MISC
+Patient96	Male	Non-Hispanic	Other/Declined	MIS-C	3	0	1	1	1	asthma	MISC
+Patient97	Male	Non-Hispanic	Black/AA	MIS-C	3	1	1	1	0	NA	MISC
+Patient98	Female	Hispanic	Black/AA	COVID-19	3	0	1	1	1	asthma	COVID-19
+Patient99	Male	Non-Hispanic	White	MIS-C	3	1	1	0	0	NA	MISC
+Patient100	Male	Non-Hispanic	White	MIS-C	3	1	0	0	0	NA	MISC
+Patient101	Female	Non-Hispanic	Black/AA	MIS-C	3	0	0	1	0	NA	MISC, Other, hemolytic anemia, new diagnosis hereditary elliptocytosis/pyropoikilocytosis
+Patient104	Male	Non-Hispanic	Black/AA	MIS-C	3	0	1	1	0	NA	MISC
+Patient105	Male	Non-Hispanic	Black/AA	MIS-C	3	0	0	1	0	NA	MISC
+Patient106	Male	Non-Hispanic	Black/AA	COVID-19	0	1	0	0	1	asthma	
+Patient107	Female	Non-Hispanic	Black/AA	MIS-C	3	0	0	1	0	NA	MISC
+Patient108	Male	Non-Hispanic	White	MIS-C	3	1	1	1	0	NA	MISC
+Patient109	Male	Non-Hispanic	Black/AA	MIS-C	3	0	1	0	0	NA	MISC
+Patient110	Male	Hispanic	White	MIS-C	3	1	1	1	0	NA	MISC
+Patient111	Female	Non-Hispanic	Asian	COVID-19	3	1	1	1	1	diabetes	COVID-19
+Patient112	Male	Non-Hispanic	Black/AA	MIS-C	3	0	1	1	1	asthma	MISC
+Patient113	Male	Non-Hispanic	Black/AA	MIS-C	3	1	0	1	0	NA	MISC
+Patient114	Male	Non-Hispanic	White	MIS-C	3	0	1	1	1	asthma	MISC
+Patient115	Female	Non-Hispanic	White	COVID-19	3	0	0	1	0	NA	COVID-19
+Patient116	Male	Non-Hispanic	White	COVID-19	3	1	0	1	0	NA	COVID-19
+Patient117	Male	Non-Hispanic	Black/AA	MIS-C	3	0	0	1	0	NA	MISC
+Patient118	Female	Non-Hispanic	Black/AA	MIS-C	3	0	1	1	0	NA	MISC
+Patient119	Male	Non-Hispanic	Black/AA	MIS-C	2	0	0	1	0	NA	MISC
+Patient120	Male	Non-Hispanic	Black/AA	MIS-C	3	0	1	1	0	NA	MISC
+Patient121	Male	Non-Hispanic	Black/AA	MIS-C	2	0	0	1	0	NA	MISC
+Patient122	Male	Non-Hispanic	Black/AA	MIS-C	2	0	0	1	0	NA	MISC
+Patient123	Female	Hispanic	White	COVID-19	2	0	0	1	1	asthma	COVID-19
+Patient124	Male	Non-Hispanic	Black/AA	MIS-C	2	0	0	1	1	asthma	MISC
+Patient125	Female	Non-Hispanic	White	MIS-C	3	1	1	1	0	NA	MISC
+Patient126	Male	Non-Hispanic	Black/AA	MIS-C	3	0	0	1	0	NA	MISC
+Patient127	Female	Non-Hispanic	White	MIS-C	2	0	0	1	0	NA	MISC
+Patient128	Female	Non-Hispanic	Black/AA	MIS-C	3	0	0	1	0	NA	MISC
+Patient129	Male	Non-Hispanic	White	COVID-19	2	0	1	1	0	NA	COVID-19
+Patient130	Female	Non-Hispanic	Black/AA	COVID-19	3	1	1	1	1	asthma	COVID-19
+Patient131	Male	Hispanic	White	MIS-C	2	0	0	1	0	NA	MISC
+Patient132	Female	Non-Hispanic	Black/AA	COVID-19	3	1	1	1	0	NA	MISC
+Patient133	Male	Non-Hispanic	White	MIS-C	2	0	1	1	1	asthma	MISC
+Patient134	Male	Non-Hispanic	Black/AA	COVID-19	2	1	1	1	0	NA	COVID-19
+Patient135	Male	Non-Hispanic	Black/AA	MIS-C	2	0	1	1	0	NA	MISC
+Patient136	Male	Non-Hispanic	White	COVID-19	3	1	1	1	0	NA	MISC
+Patient137	Male	Non-Hispanic	Black/AA	MIS-C	2	1	1	1	0	NA	MISC
+Patient138	Female	Non-Hispanic	Black/AA	MIS-C	3	1	1	1	0	NA	MISC
+Patient139	Female	Non-Hispanic	Black/AA	MIS-C	3	1	0	1	0	NA	MISC
+Patient140	Female	Non-Hispanic	Black/AA	MIS-C	3	1	1	1	0	NA	MISC
+Patient141	Male	Non-Hispanic	Black/AA	MIS-C	3	1	1	1	0	NA	MISC
+Patient142	Male	Non-Hispanic	Black/AA	MIS-C	3	1	1	1	0	NA	MISC
+Patient143	Female	Non-Hispanic	Black/AA	MIS-C	2	1	1	1	0	NA	MISC
+Patient146	Male	Non-Hispanic	Black/AA	Donor Control	-1	1	0	1	1	ADHD, seasonal_allergies	
+Patient147	Female	Non-Hispanic	White	Donor Control	-1	1	0	1	0	NA	
+Patient148	Female	Non-Hispanic	Black/AA	COVID-19	3	0	1	1	1	asthma	COVID-19
+Patient149	Female	Non-Hispanic	Asian	Donor Control	-1	1	0	1	0	NA	
+Patient150	Male	Non-Hispanic	Black/AA	Donor Control	-1	0	1	1	0	NA	
+Patient152	Female	Non-Hispanic	Black/AA	COVID-19	2	0	1	0	1	serious_mental_illness	COVID-19
+Patient153	Female	Non-Hispanic	Black/AA	MIS-C	3	0	1	0	0	NA	MISC
+Patient154	Female	Non-Hispanic	Black/AA	COVID-19	2	0	1	0	1	asthma	COVID-19, Other, RSV bronchiolitis
+Patient155	Female	Non-Hispanic	White	Donor Control	-1	0	0	1	0	NA	
+Patient156	Male	Non-Hispanic	White	Donor Control	-1	0	0	1	1	seasonal_allergies	
+Patient157	Female	Non-Hispanic	Asian	Donor Control	-1	0	0	1	0	NA	
+Patient158	Female	Hispanic	Asian	Donor Control	-1	0	0	1	0	NA	
+Patient159	Female	Non-Hispanic	Asian	Donor Control	-1	0	0	1	0	NA	
+Patient160	Female	Hispanic	White	Donor Control	-1	0	1	1	0	NA	
+Patient161	Female	Hispanic	White	Donor Control	-1	0	1	1	0	NA	
+Patient162	Female	Non-Hispanic	Black/AA	Donor Control	-1	0	1	1	0	NA	
+Patient163	Male	Non-Hispanic	Black/AA	Donor Control	-1	0	0	1	0	NA	
+Patient164	Female	Non-Hispanic	Black/AA	Donor Control	-1	0	0	1	0	NA	
+Patient165	Male	Non-Hispanic	American Indian	Donor Control	-1	0	1	1	0	NA	
+Patient166	Female	Non-Hispanic	American Indian	Donor Control	-1	0	1	1	0	NA	
+Patient167	Female	Non-Hispanic	White	Donor Control	-1	0	1	1	0	NA	
+Patient168	Female	Non-Hispanic	White	Donor Control	-1	0	0	1	0	NA	
+Patient169	Female	Non-Hispanic	White	Donor Control	-1	0	1	1	1	asthma	
+Patient170	Male	Non-Hispanic	Black/AA	COVID-19	2	0	1	1	1	asthma, diabetes	COVID-19
+Patient171	Male	Non-Hispanic	White	Donor Control	-1	0	1	1	0	NA	
+Patient172	Male	Hispanic	Other/Declined	Donor Control	-1	0	1	1	0	NA	
+Patient173	Male	Hispanic	Other/Declined	Donor Control	-1	0	1	1	0	NA	
+Patient174	Female	Non-Hispanic	White	Donor Control	-1	0	1	1	1	asthma	
+Patient175	Female	Non-Hispanic	Black/AA	COVID-19	2	0	1	1	1	asthma, hypertension	COVID-19
+Patient176	Female	Non-Hispanic	Black/AA	COVID-19	2	0	1	1	1	asthma, serious_mental_illness	COVID-19
+Patient178	Male	Non-Hispanic	Black/AA	MIS-C	3	0	0	1	0	NA	MISC
+Patient179	Male	Non-Hispanic	White	COVID-19	3	0	1	1	0	NA	COVID-19
+Patient180	Female	Non-Hispanic	Black/AA	COVID-19	2	0	1	1	1	asthma	COVID-19
+Patient181	Male	Non-Hispanic	Black/AA	COVID-19	2	0	0	1	1	asthma	COVID-19
+Patient182	Male	Hispanic	White	COVID-19	3	0	1	1	0	NA	COVID-19
+Patient183	Male	Non-Hispanic	Black/AA	MIS-C	3	0	1	1	0	NA	MISC
+Patient184	Male	Non-Hispanic	White	COVID-19	3	0	1	1	0	NA	Other, New diagnosis type 1 diabetes, DKA
+Patient185	Male	Non-Hispanic	Black/AA	COVID-19	3	0	1	1	0	NA	COVID-19
+Patient186	Male	Non-Hispanic	Black/AA	COVID-19	2	0	1	1	0	NA	COVID-19
+Patient187	Male	Non-Hispanic	Black/AA	MIS-C	2	0	0	1	1	asthma	MISC
+Patient188	Female	Non-Hispanic	Black/AA	COVID-19	3	0	1	1	0	NA	COVID-19
+Patient189	Male	Non-Hispanic	Black/AA	MIS-C	2	0	0	1	0	NA	MISC
+Patient190	Male	Non-Hispanic	Black/AA	MIS-C	3	0	1	1	0	NA	MISC
+Patient191	Female	Non-Hispanic	Black/AA	COVID-19	3	0	1	1	1	asthma, diabetes	COVID-19, Other, New diagnosis type 1 diabetes, DKA
+Patient192	Male	Hispanic	Other/Declined	COVID-19	3	0	1	1	1	asthma, serious_mental_illness	COVID-19
+Patient193	Male	Non-Hispanic	White	COVID-19	3	0	1	0	1	asthma	COVID-19
+Patient194	Female	Non-Hispanic	Black/AA	COVID-19	3	0	1	0	0	NA	COVID-19
+Patient195	Female	Non-Hispanic	Black/AA	COVID-19	3	0	1	0	1	asthma	COVID-19
+Patient196	Male	Non-Hispanic	White	MIS-C	3	0	1	0	0	NA	MISC
+Patient197	Male	Non-Hispanic	Black/AA	MIS-C	3	0	0	1	0	NA	MISC
+Patient198	Female	Non-Hispanic	Black/AA	COVID-19	3	0	0	1	1	asthma	COVID-19
+Patient199	Female	Non-Hispanic	Black/AA	MIS-C	2	0	0	1	0	NA	Other, Kawasaki Disease
+Patient200	Male	Non-Hispanic	White	MIS-C	2	0	1	0	0	NA	COVID-19, Other, adenovirus+, rhino/enterovirus+
+Patient201	Female	Non-Hispanic	Black/AA	COVID-19	2	0	0	1	0	NA	COVID-19
+Patient202	Male	Non-Hispanic	Black/AA	MIS-C	3	0	1	0	0	NA	MISC
+Patient203	Male	Non-Hispanic	Black/AA	MIS-C	2	0	1	0	0	NA	MISC
+Patient204	Male	Non-Hispanic	White	MIS-C	3	0	0	1	0	NA	MISC
+Patient205	Male	Non-Hispanic	Black/AA	MIS-C	3	0	1	0	0	NA	MISC
+Patient206	Female	Non-Hispanic	Black/AA	MIS-C	3	0	0	1	1	asthma	MISC
+Patient207	Female	Non-Hispanic	Black/AA	MIS-C	3	0	1	1	1	asthma	MISC
+Patient208	Female	Non-Hispanic	Black/AA	MIS-C	3	0	1	0	0	NA	MISC, Other, Acute appendicitis, E coli UTI
+Patient209	Female	Non-Hispanic	Black/AA	MIS-C	3	0	1	1	0	NA	MISC
+Patient210	Female	Non-Hispanic	Black/AA	MIS-C	3	0	0	1	0	NA	MISC
+Patient211	Male	Non-Hispanic	Black/AA	MIS-C	3	0	0	1	0	NA	MISC
+Patient212	Male	Non-Hispanic	Asian	COVID-19	1	1	0	0	0	NA	
+Patient213	Male	Hispanic	Other/Declined	COVID-19	0	1	0	0	0	NA	
+Patient214	Female	Hispanic	Other/Declined	MIS-C	3	1	0	0	0	NA	COVID-19, MISC
+Patient215	Female	Hispanic	Other/Declined	COVID-19	0	1	0	0	0	NA	
+Patient216	Female	Hispanic	Other/Declined	COVID-19	3	0	0	1	1	chronic_kidney_disease, hypertension, immunosuppressive_conditio	COVID-19
+Patient217	Female	Non-Hispanic	White	COVID-19	1	1	0	0	0	NA	
+Patient218	Female	Non-Hispanic	Black/AA	COVID-19	2	0	0	1	1	chronic_kidney_disease, hypertension, immunosuppressive_conditio	COVID-19
+Patient219	Female	Hispanic	Other/Declined	COVID-19	0	1	0	0	1	asthma, chronic_lung_disease	
+Patient220	Female	Hispanic	Other/Declined	COVID-19	2	0	0	1	1	serious_mental_illness	COVID-19
+Patient221	Male	Non-Hispanic	Other/Declined	COVID-19	2	0	0	1	1	asthma, serious_mental_illness	COVID-19
+Patient222	Female	Hispanic	Other/Declined	COVID-19	1	1	0	0	0	NA	COVID-19, Other, Urinary tract infection due to extended-spectrum beta lactamase (ESBL) producing Escherichia coli
+Patient223	Female	Non-Hispanic	Asian	COVID-19	3	0	0	1	0	NA	COVID-19
+Patient224	Female	Hispanic	Other/Declined	MIS-C	2	0	0	1	0	NA	COVID-19, MISC
+Patient225	Male	Hispanic	Other/Declined	COVID-19	2	0	0	1	1	chronic_kidney_disease, immunosuppressive_conditio	COVID-19
+Patient226	Female	Non-Hispanic	White	MIS-C	2	0	0	1	0	NA	COVID-19, MISC
+Patient227	Female	Hispanic	Other/Declined	COVID-19	1	1	0	0	0	NA	
+Patient228	Male	Hispanic	Other/Declined	COVID-19	2	0	0	1	0	NA	COVID-19
+Patient229	Female	Hispanic	Other/Declined	COVID-19	3	0	0	1	1	cardiovascular_disease	COVID-19
+Patient230	Male	Hispanic	Other/Declined	MIS-C	2	1	0	0	1	asthma	COVID-19, MISC, Other, pneumonia
+Patient231	Male	Hispanic	Other/Declined	COVID-19	2	0	0	1	1	chronic_lung_disease	COVID-19
+Patient232	Male	Hispanic	Other/Declined	MIS-C	3	0	0	1	0	NA	COVID-19, MISC
+Patient233	Female	Non-Hispanic	Other/Declined	COVID-19	3	0	0	1	1	cancer, diabetes, immunosuppressive_conditio	COVID-19
+Patient234	Female	Hispanic	Other/Declined	COVID-19	2	0	0	1	0	NA	COVID-19
+Patient235	Male	Hispanic	Other/Declined	COVID-19	3	0	0	1	0	NA	COVID-19
+Patient236	Male	Hispanic	Other/Declined	COVID-19	3	0	0	1	1	diabetes	COVID-19
+Patient237	Female	Non-Hispanic	Other/Declined	COVID-19	3	0	0	1	0	NA	COVID-19

@@ -1,316 +1,268 @@
-PTID	cfrna_sample_id	wbrna_sample_id	cfdna_sample_id	wbc	crp	alt	alb
-1	Patient1	prevail_cu_cfrna_224	NA	NA	10.41	27.16	11	2.3
-2	Patient1	prevail_cu_cfrna_224	NA	NA	13.6	27.16	NA	3.7
-3	Patient2	prevail_cu_cfrna_202	NA	NA	123	NA	NA	
-4	Patient2	prevail_cu_cfrna_202	NA	NA	5.61	13.01	50	3.2
-5	Patient3	prevail_cu_cfrna_199	PV351	NA	5.07	20.69	40	2.9
-6	Patient4	prevail_cu_cfrna_204	NA	NA	24.65	41.73	43	2.8
-7	Patient5	prevail_cu_cfrna_217	NA	NA	17.59	30.35	69	2.1
-8	Patient6	prevail_cu_cfrna_216	PV352	NA	6.29	17.46	43	3.2
-9	Patient7	prevail_cu_cfrna_219	PV353	NA	11.32	17.29	19	2
-10	Patient8	prevail_cu_cfrna_205	NA	NA	4.16	16.81	206	3
-11	Patient9	prevail_cu_cfrna_220	NA	NA	11.02	10.32	17	2.0
-12	Patient10	prevail_cu_cfrna_225	NA	NA	5.46	7.86	53	3.8
-13	Patient11	prevail_cu_cfrna_212	NA	NA	15.34	21.03	42	3.5
-14	Patient12	prevail_cu_cfrna_215	NA	NA	5.95	17.67	32	3.8
-15	Patient13	prevail_cu_cfrna_223	NA	NA	0.88	17.08	151	2.1
-16	Patient14	prevail_cu_cfrna_211	NA	NA	13.33	13.4	25	3.1
-17	Patient15	prevail_cu_cfrna_206	NA	NA	17.16	13.36	16	2
-18	Patient16	NA	PV358	NA	10.96	7.79	23	2.8
-19	Patient17	prevail_cu_cfrna_221	NA	NA	4.98	17.52	122	2.6
-20	Patient18	prevail_cu_cfrna_226	NA	NA	21.31	1.63	35	2.7
-21	Patient19	prevail_cu_cfrna_222	NA	NA	4.72	12.21	187	2.8
-22	Patient20	prevail_cu_cfrna_201	NA	NA	8.03	12.69	47	2.2
-23	Patient21	prevail_cu_cfrna_203	PV359	NA	24.02	21.09	71	2
-24	Patient22	prevail_cu_cfrna_209	PV364	NA	8.25	6.91	173	2.3
-25	Patient23	NA	PV354	NA	5.88	14.63	62	3.5
-26	Patient24	NA	PV357	NA	20.2	7.81	18	3
-27	Patient25	NA	PV360	NA	7.94	10.8	8	2.3
-28	Patient26	NA	PV365	NA	16.1	NA	18	4.2
-29	Patient27	NA	PV366	NA	19.04	29.42	34	2.3
-30	Patient28	NA	PV370	NA	10.85	10.67	23	2.1
-31	Patient29	NA	PV362	NA	9.42	24.05	35	2.1
-32	Patient30	NA	PV367	NA	9.97	NA	NA	
-33	Patient31	NA	PV355	NA	9.8	10.22	26	2.5
-34	Patient32	NA	PV356	NA	13.38	30.27	28	3.2
-35	Patient33	NA	PV363	NA	3.79	8.94	25	2.3
-36	Patient34	NA	PV368	NA	9.28	9.66	32	4
-37	Patient35	NA	PV369	NA	5.11	9.27	94	2.2
-38	Patient36	NA	PV18	NA	6.01	30	110	2.2
-39	Patient37	NA	PV19	NA	0.99	14.6	202	2.9
-40	Patient37	NA	PV19	NA	1.09	NA	68	3.7
-41	Patient38	NA	PV61	cfdna_sample_id_26	3.37	5.6	18	2.1
-42	Patient38	NA	PV61	cfdna_sample_id_26	15.82	7.4	24	2.1
-43	Patient38	NA	PV61	cfdna_sample_id_26	2.95	5.6	18	2.1
-44	Patient39	NA	PV62	NA	14.33	10.3	79	2.1
-45	Patient39	NA	PV62	NA	11.29	10.3	79	2.1
-46	Patient40	NA	PV63	cfdna_sample_id_27	16.15	15.5	60	2.0
-47	Patient41	NA	PV64	NA	12	15.2	60	2.8
-48	Patient41	NA	PV234	NA	12	15.2	60	2.8
-49	Patient42	NA	PV65	NA	4.03	9	42	3.3
-50	Patient43	NA	PV66	cfdna_sample_id_28	17.36	24	104	2.1
-51	Patient44	NA	NA	cfdna_sample_id_29	NA	15.1	NA	1.9
-52	Patient45	NA	PV69	cfdna_sample_id_30	3.31	30.2	56	2.3
-53	Patient46	NA	PV70	cfdna_sample_id_31	9.34	13.2	90	2.9
-54	Patient47	NA	PV72	cfdna_sample_id_32	8.6	4.4	26	2.9
-55	Patient48	NA	PV74	cfdna_sample_id_33	36.3	20	165	2.7
-56	Patient49	NA	NA	cfdna_sample_id_34	NA	NA	NA	NA
-57	Patient50	NA	PV77	NA	3	7.3	13	2.9
-58	Patient51	NA	PV78	NA	27.2	0.4	27	5.2
-59	Patient52	NA	NA	cfdna_sample_id_35	10.38	0.7	26	3.5
-60	Patient53	NA	PV80	NA	4.29	3.4	36	3.3
-61	Patient54	prevail_cu_cfrna_124	PV156	NA	13.99	11.6	10	3.3
-62	Patient55	prevail_cu_cfrna_147	PV130	NA	NA	20.3	NA	
-63	Patient56	prevail_cu_cfrna_252	NA	NA	10.93	1.6	20	3.5
-64	Patient57	NA	PV81	cfdna_sample_id_36	8.42	9.1	55	3.9
-65	Patient57	NA	PV235	NA	8.42	9.1	55	3.9
-66	Patient58	prevail_cu_cfrna_320	PV82	NA	9.07	14.4	52	2.8
-67	Patient59	prevail_cu_cfrna_315	NA	NA	4.58	12.9	107	3.3
-68	Patient60	prevail_cu_cfrna_289	PV84	NA	13.24	1.7	19	3.1
-69	Patient61	NA	PV85	cfdna_sample_id_37	NA	NA	NA	
-70	Patient62	prevail_cu_cfrna_125	PV131	NA	9.06	6.6	50	4.2
-71	Patient63	NA	PV86	cfdna_sample_id_38	6.68	NA	17	3.5
-72	Patient64	NA	PV87	cfdna_sample_id_40	6.59	20	29	4.2
-73	Patient64	prevail_cu_cfrna_126	PV132	NA	6.59	20	29	4.2
-74	Patient65	prevail_cu_cfrna_128	PV133	NA	10.01	0.5	65	3.0
-75	Patient66	NA	PV88	cfdna_sample_id_39	12.35	0.3	205	4.6
-76	Patient67	prevail_cu_cfrna_129	PV157	NA	11.51	17.3	12	3.1
-77	Patient67	NA	PV89	cfdna_sample_id_41	11.51	17.3	12	3.1
-78	Patient68	prevail_cu_cfrna_130	PV158	NA	18.6	18.9	49	3.7
-79	Patient68	NA	PV90	cfdna_sample_id_42	18.6	18.9	49	3.7
-80	Patient69	prevail_cu_cfrna_293	PV91	cfdna_sample_id_43	NA	NA	NA	
-81	Patient70	NA	PV239	NA	9.43	3.4	108	2.0
-82	Patient70	NA	PV239	NA	NA	6	NA	
-83	Patient70	NA	PV239	NA	11.77	5.1	136	2.1
-84	Patient70	prevail_cu_cfrna_141	NA	NA	9.43	3.4	108	2.0
-85	Patient70	prevail_cu_cfrna_141	NA	NA	NA	6	NA	
-86	Patient70	prevail_cu_cfrna_141	NA	NA	11.77	5.1	136	2.1
-87	Patient70	prevail_cu_cfrna_298	PV92	cfdna_sample_id_44	9.43	3.4	108	2.0
-88	Patient70	prevail_cu_cfrna_298	PV92	cfdna_sample_id_44	NA	6	NA	
-89	Patient70	prevail_cu_cfrna_298	PV92	cfdna_sample_id_44	11.77	5.1	136	2.1
-90	Patient71	prevail_cu_cfrna_319	PV94	NA	7.98	NA	NA	
-91	Patient71	prevail_cu_cfrna_319	PV94	NA	12.93	27	52	1.9
-92	Patient71	prevail_cu_cfrna_319	PV94	NA	12.93	NA	120	2.2
-93	Patient72	prevail_cu_cfrna_301	PV95	cfdna_sample_id_45	14.2	13.8	72	2.9
-94	Patient73	prevail_cu_cfrna_308	PV96	cfdna_sample_id_46	NA	NA	NA	
-95	Patient73	NA	PV240	NA	NA	NA	NA	
-96	Patient74	NA	PV97	NA	17.32	11.5	27	3.2
-97	Patient75	prevail_cu_cfrna_300	PV98	cfdna_sample_id_47	15.43	19	38	2.5
-98	Patient76	prevail_cu_cfrna_76	PV99	NA	11.67	71.8	26	3.1
-99	Patient77	prevail_cu_cfrna_304	PV100	cfdna_sample_id_48	5.14	16.2	41	2.4
-100	Patient78	prevail_cu_cfrna_263	NA	NA	15.65	8.4	34	2.2
-101	Patient79	prevail_cu_cfrna_305	PV101	cfdna_sample_id_49	11.53	12.7	31	3.3
-102	Patient80	NA	PV102	cfdna_sample_id_50	9.1	156.2	43	2.3
-103	Patient80	prevail_cu_cfrna_132	PV160	NA	9.1	156.2	43	2.3
-104	Patient81	prevail_cu_cfrna_120	NA	NA	6.15	21.6	40	3.1
-105	Patient82	NA	PV103	NA	9.36	10.2	27	3.9
-106	Patient82	prevail_cu_cfrna_114	PV162	NA	9.36	10.2	27	3.9
-107	Patient83	NA	PV243	NA	9.95	8.2	24	1.9
-108	Patient83	prevail_cu_cfrna_81	PV104	cfdna_sample_id_51	9.95	8.2	24	1.9
-109	Patient84	prevail_cu_cfrna_82	PV105	cfdna_sample_id_52	10.73	15	27	3.3
-110	Patient85	prevail_cu_cfrna_146	PV163	NA	7.3	NA	37	
-111	Patient86	prevail_cu_cfrna_83	PV106	cfdna_sample_id_53	16.94	21.3	43	2.0
-112	Patient87	NA	PV107	cfdna_sample_id_54	11.1	NA	42	3.2
-113	Patient88	prevail_cu_cfrna_260	NA	NA	8.34	18.1	48	2.5
-114	Patient89	NA	PV108	NA	NA	NA	61	3.3
-115	Patient90	NA	PV109	NA	10.16	11.5	48	3.4
-116	Patient91	prevail_cu_cfrna_321	PV110	NA	8.87	6.5	21	3.4
-117	Patient92	prevail_cu_cfrna_307	PV111	cfdna_sample_id_55	9.2	129.5	18	3.6
-118	Patient93	prevail_cu_cfrna_313	PV112	cfdna_sample_id_56	17.18	27.8	19	2.4
-119	Patient94	NA	PV113	cfdna_sample_id_57	9.35	30.9	24	2.7
-120	Patient95	prevail_cu_cfrna_258	NA	NA	7.41	5.4	49	4.3
-121	Patient96	prevail_cu_cfrna_318	PV114	NA	9.58	25	44	2.2
-122	Patient97	prevail_cu_cfrna_303	PV115	cfdna_sample_id_58	17.29	24	237	3.1
-123	Patient98	prevail_cu_cfrna_127	PV164	NA	22.96	3.1	50	2.9
-124	Patient98	NA	PV116	NA	22.96	3.1	50	2.9
-125	Patient98	prevail_cu_cfrna_121	NA	NA	22.96	3.1	50	2.9
-126	Patient99	prevail_cu_cfrna_95	NA	cfdna_sample_id_59	6.09	10.5	83	2.9
-127	Patient100	NA	NA	cfdna_sample_id_60	7.19	3.8	54	2.9
-128	Patient101	NA	PV20	NA	14.88	13.2	45	2.9
-129	Patient102	NA	PV21	NA	9.67	2.7	47	3.9
-130	Patient103	NA	PV22	NA	4.42	4	22	3.1
-131	Patient104	NA	PV166	NA	6.27	10.01	41	2.9
-132	Patient104	prevail_cu_cfrna_317	PV119	NA	6.27	10.01	41	2.9
-133	Patient105	NA	PV244	NA	7.98	NA	NA	
-134	Patient105	NA	PV23	NA	7.98	NA	NA	
-135	Patient106	NA	NA	cfdna_sample_id_61	NA	NA	NA	NA
-136	Patient107	NA	PV24	NA	9.3	12.79	14	4.0
-137	Patient108	NA	PV25	NA	5.79	7.8	NA	2.6
-138	Patient108	prevail_cu_cfrna_310	NA	cfdna_sample_id_62	5.79	7.8	NA	2.6
-139	Patient109	prevail_cu_cfrna_280	NA	NA	9.65	32.7	81	2.5
-140	Patient110	prevail_cu_cfrna_309	PV122	cfdna_sample_id_63	10.7	21.1	110	2.9
-141	Patient111	prevail_cu_cfrna_290	PV123	cfdna_sample_id_64	5.14	1.7	NA	
-142	Patient112	prevail_cu_cfrna_137	NA	NA	8.06	27.6	37	2.9
-143	Patient112	NA	PV26	NA	8.06	27.6	37	2.9
-144	Patient112	prevail_cu_cfrna_135	PV168	NA	8.06	27.6	37	2.9
-145	Patient113	NA	PV125	cfdna_sample_id_65	9.36	21.7	18	3.0
-146	Patient114	NA	PV126	NA	16.65	18.8	97	2.4
-147	Patient114	prevail_cu_cfrna_119	PV170	NA	16.65	18.8	97	2.4
-148	Patient115	NA	PV127	NA	8.26	1.1	24	3.6
-149	Patient116	NA	PV128	cfdna_sample_id_66	11.38	10	20	3.0
-150	Patient117	NA	PV27	NA	10.9	15.3	33	2.5
-151	Patient118	NA	PV28	NA	8.97	15.4	46	2.2
-152	Patient118	NA	PV28	NA	8.97	8	44	1.8
-153	Patient118	prevail_cu_cfrna_118	PV171	NA	8.97	15.4	46	2.2
-154	Patient118	prevail_cu_cfrna_118	PV171	NA	8.97	8	44	1.8
-155	Patient119	NA	PV29	NA	5.17	13.8	32	3.1
-156	Patient120	prevail_cu_cfrna_108	NA	NA	8.65	17.7	33	3.1
-157	Patient120	prevail_cu_cfrna_108	NA	NA	22.46	16.5	70	1.9
-158	Patient120	NA	PV30	NA	8.65	17.7	33	3.1
-159	Patient120	NA	PV30	NA	22.46	16.5	70	1.9
-160	Patient121	NA	PV48	NA	4.92	11.9	26	2.4
-161	Patient122	NA	PV49	NA	5.21	6.9	55	3.2
-162	Patient123	NA	PV174	NA	NA	NA	NA	NA
-163	Patient124	NA	PV51	NA	12.7	66.9	9	3.9
-164	Patient125	prevail_cu_cfrna_294	PV175	cfdna_sample_id_10	10.13	12	131	2.2
-165	Patient125	prevail_cu_cfrna_294	PV175	cfdna_sample_id_10	7.87	25.7	45	2.3
-166	Patient126	NA	PV52	NA	13.2	NA	54	2.8
-167	Patient126	NA	PV52	NA	11.79	6.8	60	2.5
-168	Patient127	NA	PV53	NA	14.07	15.4	19	2.6
-169	Patient127	NA	PV53	NA	7.92	14.1	17	2.3
-170	Patient128	NA	PV246	NA	17.92	18.5	29	1.9
-171	Patient128	NA	PV246	NA	8.67	18.2	37	2.7
-172	Patient128	NA	PV54	NA	17.92	18.5	29	1.9
-173	Patient128	NA	PV54	NA	8.67	18.2	37	2.7
-174	Patient129	prevail_cu_cfrna_136	PV177	NA	11.76	2.7	33	2.9
-175	Patient129	prevail_cu_cfrna_136	PV177	NA	9.54	3.9	33	3.1
-176	Patient130	prevail_cu_cfrna_287	PV178	cfdna_sample_id_11	5.39	1.2	67	3.6
-177	Patient130	prevail_cu_cfrna_287	PV178	cfdna_sample_id_11	12.29	NA	64	2.7
-178	Patient131	NA	PV55	NA	9.98	8.6	18	2.4
-179	Patient131	NA	PV180	NA	9.98	8.6	18	2.4
-180	Patient132	prevail_cu_cfrna_138	NA	NA	11.57	12.6	15	2.1
-181	Patient132	prevail_cu_cfrna_138	NA	NA	7.9	51.6	12	4.0
-182	Patient132	prevail_cu_cfrna_138	NA	NA	6.41	10.9	20	2.2
-183	Patient132	prevail_cu_cfrna_282	NA	cfdna_sample_id_12	11.57	12.6	15	2.1
-184	Patient132	prevail_cu_cfrna_282	NA	cfdna_sample_id_12	7.9	51.6	12	4.0
-185	Patient132	prevail_cu_cfrna_282	NA	cfdna_sample_id_12	6.41	10.9	20	2.2
-186	Patient132	NA	PV56	NA	11.57	12.6	15	2.1
-187	Patient132	NA	PV56	NA	7.9	51.6	12	4.0
-188	Patient132	NA	PV56	NA	6.41	10.9	20	2.2
-189	Patient133	prevail_cu_cfrna_291	PV183	NA	16.08	12.1	40	2.7
-190	Patient134	prevail_cu_cfrna_284	PV184	cfdna_sample_id_13	7.26	7.2	54	3.4
-191	Patient135	prevail_cu_cfrna_12	PV185	NA	7.06	4.4	40	3.6
-192	Patient136	prevail_cu_cfrna_285	PV186	cfdna_sample_id_14	3.38	22.9	78	2.3
-193	Patient136	prevail_cu_cfrna_285	PV186	cfdna_sample_id_14	NA	24.1	97	2.1
-194	Patient137	NA	PV58	NA	15.39	15.7	35	3.4
-195	Patient137	NA	PV247	NA	15.39	15.7	35	3.4
-196	Patient137	prevail_cu_cfrna_295	NA	cfdna_sample_id_15	15.39	15.7	35	3.4
-197	Patient137	prevail_cu_cfrna_139	PV187	NA	15.39	15.7	35	3.4
-198	Patient138	prevail_cu_cfrna_140	NA	NA	NA	24.1	32	2.3
-199	Patient138	NA	PV248	NA	NA	24.1	32	2.3
-200	Patient138	prevail_cu_cfrna_292	PV189	cfdna_sample_id_16	NA	24.1	32	2.3
-201	Patient139	NA	PV60	NA	NA	NA	NA	NA
-202	Patient139	NA	NA	cfdna_sample_id_17	NA	NA	NA	NA
-203	Patient140	prevail_cu_cfrna_24	PV159	cfdna_sample_id_9	NA	NA	NA	NA
-204	Patient140	NA	PV249	NA	NA	NA	NA	NA
-205	Patient140	NA	PV304	NA	NA	NA	NA	NA
-206	Patient141	NA	PV303	NA	7.01	28.5	50	3.0
-207	Patient141	NA	PV250	NA	7.01	28.5	50	3.0
-208	Patient141	prevail_cu_cfrna_296	PV193	cfdna_sample_id_18	7.01	28.5	50	3.0
-209	Patient142	prevail_cu_cfrna_299	PV194	cfdna_sample_id_19	8.47	11.7	53	3.0
-210	Patient143	prevail_cu_cfrna_42	PV195	cfdna_sample_id_20	7.67	6.9	17	3.0
-211	Patient144	NA	PV135	cfdna_sample_id_21	NA	NA	NA	NA
-212	Patient145	NA	PV306	cfdna_sample_id_22	NA	NA	NA	NA
-213	Patient146	NA	PV198	cfdna_sample_id_23	NA	NA	NA	NA
-214	Patient147	NA	PV199	cfdna_sample_id_24	NA	NA	NA	NA
-215	Patient148	prevail_cu_cfrna_286	PV139	NA	3.54	3	35	3.4
-216	Patient148	prevail_cu_cfrna_286	PV139	NA	3.91	NA	38	
-217	Patient149	NA	NA	cfdna_sample_id_25	NA	NA	NA	NA
-218	Patient149	NA	PV255	NA	NA	NA	NA	NA
-219	Patient150	prevail_cu_cfrna_131	PV204	NA	NA	NA	NA	NA
-220	Patient151	prevail_cu_cfrna_142	PV144	NA	NA	NA	NA	NA
-221	Patient152	prevail_cu_cfrna_109	NA	NA	10.02	0.3	17	3.9
-222	Patient153	prevail_cu_cfrna_110	NA	NA	18.36	9.8	54	1.9
-223	Patient153	prevail_cu_cfrna_110	NA	NA	15.25	NA	35	2.6
-224	Patient154	prevail_cu_cfrna_112	NA	NA	10.26	3.6	28	3.0
-225	Patient155	NA	PV259	NA	NA	NA	NA	NA
-226	Patient156	NA	PV212	NA	NA	NA	NA	NA
-227	Patient157	NA	PV260	NA	NA	NA	NA	NA
-228	Patient158	NA	PV261	NA	NA	NA	NA	NA
-229	Patient159	NA	PV262	NA	NA	NA	NA	NA
-230	Patient160	prevail_cu_cfrna_166	PV213	NA	NA	NA	NA	NA
-231	Patient161	prevail_cu_cfrna_159	PV263	NA	NA	NA	NA	NA
-232	Patient162	prevail_cu_cfrna_167	PV214	NA	NA	NA	NA	NA
-233	Patient163	NA	PV264	NA	NA	NA	NA	NA
-234	Patient164	NA	PV265	NA	NA	NA	NA	NA
-235	Patient165	prevail_cu_cfrna_150	PV215	NA	NA	NA	NA	NA
-236	Patient166	prevail_cu_cfrna_169	PV266	NA	NA	NA	NA	NA
-237	Patient167	prevail_cu_cfrna_162	PV267	NA	NA	NA	NA	NA
-238	Patient168	NA	PV268	NA	NA	NA	NA	NA
-239	Patient169	prevail_cu_cfrna_151	PV216	NA	NA	NA	NA	NA
-240	Patient170	prevail_cu_cfrna_170	PV219	NA	4.93	3.7	248	3.4
-241	Patient170	prevail_cu_cfrna_228	PV301	NA	4.93	3.7	248	3.4
-242	Patient171	prevail_cu_cfrna_148	PV269	NA	NA	NA	NA	NA
-243	Patient172	prevail_cu_cfrna_149	PV270	NA	141.88	13.2	45	2.9
-244	Patient173	prevail_cu_cfrna_164	PV271	NA	NA	NA	NA	NA
-245	Patient174	prevail_cu_cfrna_165	PV272	NA	NA	NA	NA	NA
-246	Patient175	prevail_cu_cfrna_152	PV217	NA	6.58	2.8	49	2.1
-247	Patient176	prevail_cu_cfrna_171	PV220	NA	6.5	2.3	17	3.5
-248	Patient177	prevail_cu_cfrna_230	NA	NA	3.62	13.5	50	3.0
-249	Patient177	NA	PV218	NA	3.62	13.5	50	3.0
-250	Patient178	NA	PV222	NA	12.18	16.2	34	2.7
-251	Patient179	prevail_cu_cfrna_174	PV223	NA	17.53	4.3	80	2.4
-252	Patient180	prevail_cu_cfrna_175	PV224	NA	6.8	4.74	24	4.2
-253	Patient181	NA	PV225	NA	3.01	2.2	13	2.9
-254	Patient182	prevail_cu_cfrna_177	PV226	NA	4.27	1.8	80	2.9
-255	Patient183	prevail_cu_cfrna_179	PV227	NA	10.59	15	34	2.5
-256	Patient184	prevail_cu_cfrna_181	PV229	NA	17.32	0.3	34	4.1
-257	Patient185	prevail_cu_cfrna_182	PV230	NA	5.61	5	29	3.2
-258	Patient186	prevail_cu_cfrna_183	PV231	NA	6.48	2.7	204	3.4
-259	Patient187	NA	PV232	NA	4.5	22.89	31	3.8
-260	Patient188	prevail_cu_cfrna_185	PV233	NA	5.26	14.4	44	2.7
-261	Patient189	NA	PV273	NA	19.04	3.6	23	3.1
-262	Patient190	prevail_cu_cfrna_191	PV275	NA	11.77	18.2	194	2.6
-263	Patient190	prevail_cu_cfrna_234	PV298	NA	11.77	18.2	194	2.6
-264	Patient191	prevail_cu_cfrna_192	PV276	NA	NA	NA	NA	
-265	Patient192	prevail_cu_cfrna_193	PV277	NA	10.1	4.6	127	3.5
-266	Patient193	prevail_cu_cfrna_194	NA	NA	8.17	9.3	80	3.3
-267	Patient194	prevail_cu_cfrna_195	NA	NA	22.3	0.4	19	3.3
-268	Patient195	prevail_cu_cfrna_196	NA	NA	6.6	1.5	25	3.0
-269	Patient196	prevail_cu_cfrna_197	NA	NA	16.38	14.2	NA	
-270	Patient197	NA	PV288	NA	6.2	175.5	41	3.6
-271	Patient197	NA	PV297	NA	6.2	175.5	41	3.6
-272	Patient198	NA	PV296	NA	7.46	1.2	23	3.6
-273	Patient198	NA	PV290	NA	7.46	1.2	23	3.6
-274	Patient199	NA	PV292	NA	NA	6.4	82	2.5
-275	Patient200	prevail_cu_cfrna_278	NA	NA	14.02	11.3	24	2.4
-276	Patient201	NA	PV285	NA	3.74	0.5	17	3.5
-277	Patient202	prevail_cu_cfrna_272	NA	NA	7.43	22.1	98	3.2
-278	Patient203	prevail_cu_cfrna_271	NA	NA	10.73	15	27	3.3
-279	Patient204	NA	PV291	NA	16.19	13.6	26	3.2
-280	Patient205	prevail_cu_cfrna_270	NA	NA	21.07	23.3	20	2.4
-281	Patient206	NA	PV289	NA	14.56	19.3	25	2.7
-282	Patient207	prevail_cu_cfrna_235	PV286	NA	14.09	8.6	338	2.0
-283	Patient208	prevail_cu_cfrna_269	NA	NA	8.24	9.1	21	2.5
-284	Patient209	prevail_cu_cfrna_236	PV287	NA	15.91	37	20	1.7
-285	Patient210	NA	PV293	NA	NA	NA	NA	NA
-286	Patient211	NA	PV295	NA	NA	NA	213	2.5
-287	Patient212	NA	NA	cfdna_sample_id_6	NA	NA	NA	NA
-288	Patient213	NA	NA	cfdna_sample_id_7	NA	NA	NA	NA
-289	Patient214	NA	NA	cfdna_sample_id_1	12.1	116.1	NA	
-290	Patient215	NA	NA	cfdna_sample_id_3	10.6	NA	12	4.7
-291	Patient216	NA	PV7	NA	5	NA	NA	
-292	Patient217	NA	NA	cfdna_sample_id_5	9.2	NA	NA	4.3
-293	Patient218	NA	PV1	NA	NA	NA	NA	NA
-294	Patient219	NA	NA	cfdna_sample_id_2	NA	NA	NA	NA
-295	Patient220	NA	PV319	NA	2.9	NA	16	4.1
-296	Patient221	NA	PV316	NA	4.9	NA	NA	
-297	Patient222	NA	NA	cfdna_sample_id_4	5.3	NA	27	3.6
-298	Patient223	NA	PV331	NA	28.7	175.4	33	2.7
-299	Patient224	NA	PV332	NA	9.3	NA	68	2.7
-300	Patient225	NA	PV8	NA	19.3	NA	13	4.5
-301	Patient226	NA	PV32	NA	7.2	NA	18	2.8
-302	Patient227	NA	NA	cfdna_sample_id_8	NA	NA	NA	NA
-303	Patient228	NA	PV41	NA	5.9	NA	27	3 
-304	Patient229	NA	PV31	NA	34.2	6.6	728	
-305	Patient229	NA	PV31	NA	18.9	NA	NA	
-306	Patient229	NA	PV31	NA	36.7	56.6	2580	3.6
-307	Patient230	NA	NA	cfdna_sample_id_67	5.6	NA	19	3.1
-308	Patient231	NA	PV33	NA	3.77	NA	5	3.1
-309	Patient232	NA	PV9	NA	25.6	NA	200	2.1
-310	Patient232	NA	PV42	NA	25.6	NA	200	2.1
-311	Patient233	NA	PV338	NA	17.7	145.3	25	1.0
-312	Patient234	NA	PV335	NA	11.9	NA	NA	
-313	Patient235	NA	PV334	NA	22.9	326.1	42	2.3
-314	Patient236	NA	PV340	NA	19.8	278.3	NA	2.6
-315	Patient237	NA	PV336	NA	3.6	189.4	129	2.7
+PTID	cfrna_sample_id	wbrna_sample_id	cfdna_sample_id
+1	Patient1	prevail_cu_cfrna_224	NA	NA
+2	Patient2	prevail_cu_cfrna_202	NA	NA
+3	Patient3	prevail_cu_cfrna_199	PV351	NA
+4	Patient4	prevail_cu_cfrna_204	NA	NA
+5	Patient5	prevail_cu_cfrna_217	NA	NA
+6	Patient6	prevail_cu_cfrna_216	PV352	NA
+7	Patient7	prevail_cu_cfrna_219	PV353	NA
+8	Patient8	prevail_cu_cfrna_205	NA	NA
+9	Patient9	prevail_cu_cfrna_220	NA	NA
+10	Patient10	prevail_cu_cfrna_225	NA	NA
+11	Patient11	prevail_cu_cfrna_212	NA	NA
+12	Patient12	prevail_cu_cfrna_215	NA	NA
+13	Patient13	prevail_cu_cfrna_223	NA	NA
+14	Patient14	prevail_cu_cfrna_211	NA	NA
+15	Patient15	prevail_cu_cfrna_206	NA	NA
+16	Patient16	NA	PV358	NA
+17	Patient17	prevail_cu_cfrna_221	NA	NA
+18	Patient18	prevail_cu_cfrna_226	NA	NA
+19	Patient19	prevail_cu_cfrna_222	NA	NA
+20	Patient20	prevail_cu_cfrna_201	NA	NA
+21	Patient21	prevail_cu_cfrna_203	PV359	NA
+22	Patient22	prevail_cu_cfrna_209	PV364	NA
+23	Patient23	NA	PV354	NA
+24	Patient24	NA	PV357	NA
+25	Patient25	NA	PV360	NA
+26	Patient26	NA	PV365	NA
+27	Patient27	NA	PV366	NA
+28	Patient28	NA	PV370	NA
+29	Patient29	NA	PV362	NA
+30	Patient30	NA	PV367	NA
+31	Patient31	NA	PV355	NA
+32	Patient32	NA	PV356	NA
+33	Patient33	NA	PV363	NA
+34	Patient34	NA	PV368	NA
+35	Patient35	NA	PV369	NA
+36	Patient38	NA	PV61	cfdna_sample_id_24
+37	Patient39	NA	PV62	NA
+38	Patient40	NA	PV63	cfdna_sample_id_25
+39	Patient41	NA	PV64	NA
+40	Patient41	NA	PV234	NA
+41	Patient42	NA	PV65	NA
+42	Patient43	NA	PV66	cfdna_sample_id_26
+43	Patient44	NA	NA	cfdna_sample_id_27
+44	Patient45	NA	PV69	cfdna_sample_id_28
+45	Patient46	NA	PV70	cfdna_sample_id_29
+46	Patient47	NA	PV72	cfdna_sample_id_30
+47	Patient48	NA	PV74	cfdna_sample_id_31
+48	Patient49	NA	NA	cfdna_sample_id_32
+49	Patient50	NA	PV77	NA
+50	Patient51	NA	PV78	NA
+51	Patient52	NA	NA	cfdna_sample_id_33
+52	Patient53	NA	PV80	NA
+53	Patient54	prevail_cu_cfrna_124	PV156	NA
+54	Patient55	prevail_cu_cfrna_147	PV130	NA
+55	Patient56	prevail_cu_cfrna_252	NA	NA
+56	Patient57	NA	PV235	NA
+57	Patient57	NA	PV81	cfdna_sample_id_34
+58	Patient58	prevail_cu_cfrna_320	PV82	NA
+59	Patient59	prevail_cu_cfrna_315	NA	NA
+60	Patient61	NA	PV85	cfdna_sample_id_35
+61	Patient62	prevail_cu_cfrna_125	PV131	NA
+62	Patient63	NA	PV86	cfdna_sample_id_36
+63	Patient64	NA	PV87	cfdna_sample_id_38
+64	Patient64	prevail_cu_cfrna_126	PV132	NA
+65	Patient65	prevail_cu_cfrna_128	PV133	NA
+66	Patient66	NA	PV88	cfdna_sample_id_37
+67	Patient67	prevail_cu_cfrna_129	PV157	NA
+68	Patient67	NA	PV89	cfdna_sample_id_39
+69	Patient68	NA	PV90	cfdna_sample_id_40
+70	Patient68	prevail_cu_cfrna_130	PV158	NA
+71	Patient69	prevail_cu_cfrna_293	PV91	cfdna_sample_id_41
+72	Patient70	NA	PV239	NA
+73	Patient70	prevail_cu_cfrna_298	PV92	cfdna_sample_id_42
+74	Patient70	prevail_cu_cfrna_141	NA	NA
+75	Patient71	prevail_cu_cfrna_319	PV94	NA
+76	Patient72	prevail_cu_cfrna_301	PV95	cfdna_sample_id_43
+77	Patient73	NA	PV240	NA
+78	Patient73	prevail_cu_cfrna_308	PV96	cfdna_sample_id_44
+79	Patient74	NA	PV97	NA
+80	Patient75	prevail_cu_cfrna_300	PV98	cfdna_sample_id_45
+81	Patient76	prevail_cu_cfrna_76	PV99	NA
+82	Patient77	prevail_cu_cfrna_304	PV100	cfdna_sample_id_46
+83	Patient78	prevail_cu_cfrna_263	NA	NA
+84	Patient79	prevail_cu_cfrna_305	PV101	cfdna_sample_id_47
+85	Patient80	prevail_cu_cfrna_132	PV160	NA
+86	Patient80	NA	PV102	cfdna_sample_id_48
+87	Patient81	prevail_cu_cfrna_120	NA	NA
+88	Patient82	NA	PV103	NA
+89	Patient82	prevail_cu_cfrna_114	PV162	NA
+90	Patient83	prevail_cu_cfrna_81	PV104	cfdna_sample_id_49
+91	Patient83	NA	PV243	NA
+92	Patient84	prevail_cu_cfrna_82	PV105	cfdna_sample_id_50
+93	Patient85	prevail_cu_cfrna_146	PV163	NA
+94	Patient86	prevail_cu_cfrna_83	PV106	cfdna_sample_id_51
+95	Patient87	NA	PV107	cfdna_sample_id_52
+96	Patient88	prevail_cu_cfrna_260	NA	NA
+97	Patient89	NA	PV108	NA
+98	Patient90	NA	PV109	NA
+99	Patient91	prevail_cu_cfrna_321	PV110	NA
+100	Patient92	prevail_cu_cfrna_307	PV111	cfdna_sample_id_53
+101	Patient93	prevail_cu_cfrna_313	PV112	cfdna_sample_id_54
+102	Patient94	NA	PV113	cfdna_sample_id_55
+103	Patient95	prevail_cu_cfrna_258	NA	NA
+104	Patient96	prevail_cu_cfrna_318	PV114	NA
+105	Patient97	prevail_cu_cfrna_303	PV115	cfdna_sample_id_56
+106	Patient98	NA	PV116	NA
+107	Patient98	prevail_cu_cfrna_121	NA	NA
+108	Patient98	prevail_cu_cfrna_127	PV164	NA
+109	Patient99	prevail_cu_cfrna_95	NA	cfdna_sample_id_57
+110	Patient100	NA	NA	cfdna_sample_id_58
+111	Patient101	NA	PV20	NA
+112	Patient104	prevail_cu_cfrna_317	PV119	NA
+113	Patient104	NA	PV166	NA
+114	Patient105	NA	PV23	NA
+115	Patient105	NA	PV244	NA
+116	Patient106	NA	NA	cfdna_sample_id_59
+117	Patient107	NA	PV24	NA
+118	Patient108	prevail_cu_cfrna_310	PV121	cfdna_sample_id_60
+119	Patient109	prevail_cu_cfrna_280	NA	NA
+120	Patient110	prevail_cu_cfrna_309	PV122	cfdna_sample_id_61
+121	Patient111	prevail_cu_cfrna_290	PV123	cfdna_sample_id_62
+122	Patient112	prevail_cu_cfrna_137	NA	NA
+123	Patient112	prevail_cu_cfrna_135	PV168	NA
+124	Patient112	NA	PV26	NA
+125	Patient113	NA	PV125	cfdna_sample_id_63
+126	Patient114	NA	PV126	NA
+127	Patient114	prevail_cu_cfrna_119	PV170	NA
+128	Patient115	NA	PV127	NA
+129	Patient116	NA	PV128	cfdna_sample_id_64
+130	Patient117	NA	PV27	NA
+131	Patient118	NA	PV28	NA
+132	Patient118	prevail_cu_cfrna_118	PV171	NA
+133	Patient119	NA	PV29	NA
+134	Patient120	prevail_cu_cfrna_108	PV129	NA
+135	Patient121	NA	PV48	NA
+136	Patient122	NA	PV49	NA
+137	Patient123	NA	PV174	NA
+138	Patient124	NA	PV51	NA
+139	Patient125	prevail_cu_cfrna_294	PV175	cfdna_sample_id_10
+140	Patient126	NA	PV52	NA
+141	Patient127	NA	PV53	NA
+142	Patient128	NA	PV246	NA
+143	Patient128	NA	PV54	NA
+144	Patient129	prevail_cu_cfrna_136	PV177	NA
+145	Patient130	prevail_cu_cfrna_287	PV178	cfdna_sample_id_11
+146	Patient131	NA	PV55	NA
+147	Patient131	NA	PV180	NA
+148	Patient132	NA	PV56	NA
+149	Patient132	prevail_cu_cfrna_282	NA	cfdna_sample_id_12
+150	Patient132	prevail_cu_cfrna_138	NA	NA
+151	Patient133	prevail_cu_cfrna_291	PV183	NA
+152	Patient134	prevail_cu_cfrna_284	PV184	cfdna_sample_id_13
+153	Patient135	prevail_cu_cfrna_12	PV185	NA
+154	Patient136	prevail_cu_cfrna_285	PV186	cfdna_sample_id_14
+155	Patient137	NA	PV247	NA
+156	Patient137	prevail_cu_cfrna_295	NA	cfdna_sample_id_15
+157	Patient137	prevail_cu_cfrna_139	PV187	NA
+158	Patient137	NA	PV58	NA
+159	Patient138	prevail_cu_cfrna_292	PV189	cfdna_sample_id_16
+160	Patient138	prevail_cu_cfrna_140	NA	NA
+161	Patient138	NA	PV248	NA
+162	Patient139	NA	PV60	NA
+163	Patient139	NA	NA	cfdna_sample_id_17
+164	Patient140	NA	PV249	NA
+165	Patient140	prevail_cu_cfrna_24	PV159	cfdna_sample_id_9
+166	Patient140	NA	PV304	NA
+167	Patient141	prevail_cu_cfrna_296	PV193	cfdna_sample_id_18
+168	Patient141	NA	PV303	NA
+169	Patient141	NA	PV250	NA
+170	Patient142	prevail_cu_cfrna_299	PV194	cfdna_sample_id_19
+171	Patient143	prevail_cu_cfrna_42	PV195	cfdna_sample_id_20
+172	Patient146	NA	PV198	cfdna_sample_id_21
+173	Patient147	NA	PV199	cfdna_sample_id_22
+174	Patient148	prevail_cu_cfrna_286	PV139	NA
+175	Patient149	NA	NA	cfdna_sample_id_23
+176	Patient149	NA	PV255	NA
+177	Patient150	prevail_cu_cfrna_131	PV204	NA
+178	Patient152	prevail_cu_cfrna_109	NA	NA
+179	Patient153	prevail_cu_cfrna_110	NA	NA
+180	Patient154	prevail_cu_cfrna_112	NA	NA
+181	Patient155	NA	PV259	NA
+182	Patient156	NA	PV212	NA
+183	Patient157	NA	PV260	NA
+184	Patient158	NA	PV261	NA
+185	Patient159	NA	PV262	NA
+186	Patient160	prevail_cu_cfrna_166	PV213	NA
+187	Patient161	prevail_cu_cfrna_159	PV263	NA
+188	Patient162	prevail_cu_cfrna_167	PV214	NA
+189	Patient163	NA	PV264	NA
+190	Patient164	NA	PV265	NA
+191	Patient165	prevail_cu_cfrna_150	PV215	NA
+192	Patient166	prevail_cu_cfrna_169	PV266	NA
+193	Patient167	prevail_cu_cfrna_162	PV267	NA
+194	Patient168	NA	PV268	NA
+195	Patient169	prevail_cu_cfrna_151	PV216	NA
+196	Patient170	prevail_cu_cfrna_170	PV219	NA
+197	Patient170	prevail_cu_cfrna_228	PV301	NA
+198	Patient171	prevail_cu_cfrna_148	PV269	NA
+199	Patient172	prevail_cu_cfrna_149	PV270	NA
+200	Patient173	prevail_cu_cfrna_164	PV271	NA
+201	Patient174	prevail_cu_cfrna_165	PV272	NA
+202	Patient175	prevail_cu_cfrna_152	PV217	NA
+203	Patient176	prevail_cu_cfrna_171	PV220	NA
+204	Patient178	NA	PV222	NA
+205	Patient179	prevail_cu_cfrna_174	PV223	NA
+206	Patient180	prevail_cu_cfrna_175	PV224	NA
+207	Patient181	NA	PV225	NA
+208	Patient182	prevail_cu_cfrna_177	PV226	NA
+209	Patient183	prevail_cu_cfrna_179	PV227	NA
+210	Patient184	prevail_cu_cfrna_181	PV229	NA
+211	Patient185	prevail_cu_cfrna_182	PV230	NA
+212	Patient186	prevail_cu_cfrna_183	PV231	NA
+213	Patient187	NA	PV232	NA
+214	Patient188	prevail_cu_cfrna_185	PV233	NA
+215	Patient189	NA	PV273	NA
+216	Patient190	prevail_cu_cfrna_191	PV275	NA
+217	Patient190	prevail_cu_cfrna_234	PV298	NA
+218	Patient191	prevail_cu_cfrna_192	PV276	NA
+219	Patient192	prevail_cu_cfrna_193	PV277	NA
+220	Patient193	prevail_cu_cfrna_194	NA	NA
+221	Patient194	prevail_cu_cfrna_195	NA	NA
+222	Patient195	prevail_cu_cfrna_196	NA	NA
+223	Patient196	prevail_cu_cfrna_197	NA	NA
+224	Patient197	NA	PV288	NA
+225	Patient197	NA	PV297	NA
+226	Patient198	NA	PV296	NA
+227	Patient198	NA	PV290	NA
+228	Patient199	NA	PV292	NA
+229	Patient200	prevail_cu_cfrna_278	NA	NA
+230	Patient201	NA	PV285	NA
+231	Patient202	prevail_cu_cfrna_272	NA	NA
+232	Patient203	prevail_cu_cfrna_271	NA	NA
+233	Patient204	NA	PV291	NA
+234	Patient205	prevail_cu_cfrna_270	NA	NA
+235	Patient206	NA	PV289	NA
+236	Patient207	prevail_cu_cfrna_235	PV286	NA
+237	Patient208	prevail_cu_cfrna_269	NA	NA
+238	Patient209	prevail_cu_cfrna_236	PV287	NA
+239	Patient210	NA	PV293	NA
+240	Patient211	NA	PV295	NA
+241	Patient212	NA	NA	cfdna_sample_id_6
+242	Patient213	NA	NA	cfdna_sample_id_7
+243	Patient214	NA	NA	cfdna_sample_id_1
+244	Patient215	NA	NA	cfdna_sample_id_3
+245	Patient216	NA	PV7	NA
+246	Patient217	NA	NA	cfdna_sample_id_5
+247	Patient218	NA	PV1	NA
+248	Patient219	NA	NA	cfdna_sample_id_2
+249	Patient220	NA	PV319	NA
+250	Patient221	NA	PV316	NA
+251	Patient222	NA	NA	cfdna_sample_id_4
+252	Patient223	NA	PV331	NA
+253	Patient224	NA	PV332	NA
+254	Patient225	NA	PV8	NA
+255	Patient226	NA	PV32	NA
+256	Patient227	NA	NA	cfdna_sample_id_8
+257	Patient228	NA	PV41	NA
+258	Patient229	NA	PV31	NA
+259	Patient230	NA	NA	cfdna_sample_id_65
+260	Patient231	NA	PV33	NA
+261	Patient232	NA	PV9	NA
+262	Patient232	NA	PV42	NA
+263	Patient233	NA	PV338	NA
+264	Patient234	NA	PV335	NA
+265	Patient235	NA	PV334	NA
+266	Patient236	NA	PV340	NA
+267	Patient237	NA	PV336	NA
