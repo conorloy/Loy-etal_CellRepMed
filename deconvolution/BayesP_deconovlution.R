@@ -1,165 +1,53 @@
-suppressMessages(library(tidyverse))
-suppressMessages(library(data.table))
-suppressMessages(library(BayesPrism))
+library(TED)
+library(data.table)
 
+set.seed(42)
 ###----------------------------------------------
-# Inputs
-args<-commandArgs(TRUE)
+# Paths to inputs
 
-cfrna_counts <- args[1]
-ref_counts <- args[2]
-ref_meta <- args[3]
-biotype_key <- args[4]
-output_file <- args[5]
-cores <- as.numeric(args[6])
+cfrna_counts = "./misc_cfrna_ftcounts.tsv"
+
+ref_counts = "./tabsap_subCells-allGenes_thresh-100000.COUNTS.csv"
+ref_meta = "./tabsap_subCells-allGenes_thresh-100000.META.csv"
+
 
 ###----------------------------------------------
 # Read in data
 cat("-----> READING IN DATA \n")
+X = read.delim(cfrna_counts,row.names=c(1)) #%>% t() %>% data.frame()
+X = X[!grepl("PAR_Y",rownames(X)),1:5]
+rownames(X) <- gsub("\\_.*","",rownames(X))
+X = t(X)
 
-rna_cnts = read.delim(cfrna_counts,row.names=1)
+ref.dat = as.matrix(fread(ref_counts),rownames=1)
 
-rna_cnts <- rna_cnts #%>% t() %>% data.frame()
-
-
-sc.dat <- as.matrix(fread(ref_counts),rownames=1)
-
-sc.meta <- fread(ref_meta)
-cell.type.labels = sc.meta$cell_type_collapsed
-
+meta = fread(ref_meta)
+    
 ###----------------------------------------------
 # Clean up reference matrix
 cat("-----> CLEANING UP REFERENCE \n")
-sc.dat.filtered <- cleanup.genes (input=sc.dat,
-                                  input.type="count.matrix",
-                                    species="hs", 
-                                    gene.group=c( "Rb","Mrp","other_Rb","chrM","MALAT1","chrX","chrY") ,
-                                    exp.cells=5)
-     
+ref.dat.filtered <- cleanup.genes(ref.dat = ref.dat,
+                                   species="hs",
+                                   gene.type=c("RB","chrM","chrX","chrY"),
+                                   input.type="scRNA",
+                                   exp.cells=5)
 
-# ###----------------------------------------------
-# # ALL GENES
-# ###----------------------------------------------
-
-# ###----------------------------------------------
-# # Create prism                         
-# cat("-----> CREATE PRISM \n")                 
-# myPrism <- new.prism(
-#   reference=sc.dat.filtered, 
-#   mixture=bk.dat,
-#   input.type="count.matrix", 
-#   cell.type.labels = cell.type.labels, 
-#   cell.state.labels = cell.type.labels,
-#   key=NULL,
-#   outlier.cut=0.01,
-#     outlier.fraction=0.1,
-# )
-          
-# ###----------------------------------------------
-# # Run deconvolution                          
-# bp.res <- run.prism(prism = myPrism, n.cores=cores)
-# theta <- get.fraction (bp=bp.res,
-#             which.theta="final",
-#             state.or.type="type")
-
-# ###----------------------------------------------
-# # Save Outputs  
-# cat("-----> SAVING OUTPUT \n")     
-# output_theta = data.frame(theta)
-# output_theta$sample_id <- rownames(output_theta)
-# output_theta = output_theta %>% select(sample_id, everything())
-# write.table(output_theta,output_file,sep="\t",quote=FALSE,row.names=FALSE)
-
-
-
-###----------------------------------------------
-# PROTEIN CODING ONLY 
-###----------------------------------------------
-
-###----------------------------------------------
-# Extract only protein coding genes
-sc.dat.filtered.pc <-  select.gene.type (sc.dat.filtered,
-                                        gene.type = "protein_coding")
-
-###----------------------------------------------
-# Create prism                         
-cat("-----> CREATE PRISM \n")                 
-myPrism.pc <- new.prism(
-  reference=sc.dat.filtered.pc, 
-  mixture=rna_cnts,
-  input.type="count.matrix", 
-  cell.type.labels = cell.type.labels, 
-  cell.state.labels = cell.type.labels,
-  key=NULL,
-  outlier.cut=0.01,
-    outlier.fraction=0.1,
-)
-          
+rm("ref.dat")                  
 ###----------------------------------------------
 # Run deconvolution                          
-bp.pc.res <- run.prism(prism = myPrism.pc, n.cores=cores)
-theta.pc <- get.fraction (bp=bp.pc.res,
-            which.theta="final",
-            state.or.type="type")
-
+cat("-----> PERFORMING DECONVOLUTION \n")                 
+prevail_bayes_prism <- run.Ted(ref.dat=ref.dat.filtered,
+                    X=X,
+                    cell.type.labels=meta$cell_type_collapsed,
+                    input.type="scRNA",
+                    n.cores=15,
+                    pdf.name="misc.full")
+                  
 ###----------------------------------------------
 # Save Outputs  
-cat("-----> SAVING OUTPUT \n")    
-output_theta.pc = data.frame(theta.pc)
-output_theta.pc$sample_id <- rownames(output_theta.pc)  
-output_theta.pc = output_theta.pc %>% select(sample_id, everything())              
-write.table(output_theta.pc,output_file_pc,sep="\t",quote=FALSE,row.names=FALSE)
-    
+cat("-----> SAVING OUTPUT \n")                    
+# saveRDS(prevail_bayes_prism,"prevail_bayes-prism.rds")
+                  
+results = prevail_bayes_prism$res$final.gibbs.theta
+write.csv(results,"./prevail_bayes-prism.csv")
 
-
-
-
-# ###----------------------------------------------
-# # MARKER GENES & PROTEIN CODING ONLY 
-# ###----------------------------------------------
-
-# ###----------------------------------------------
-# # Perform differential expression
-# diff.exp.stat <- get.exp.stat(sc.dat=sc.dat.filtered.pc[,colSums(sc.dat.filtered.pc>0)>3],# filter genes to reduce memory use
-#                                           cell.type.labels=cell.type.labels,
-#                                           cell.state.labels=cell.type.labels,
-#                                           psuedo.count=0.1, #a numeric value used for log2 transformation. =0.1 for 10x data, =10 for smart-seq. Default=0.1.
-#                                           cell.count.cutoff=50, # a numeric value to exclude cell state with number of cells fewer than this value for t test. Default=50.
-#                                           n.cores=1 #number of threads
-# )
-
-# ###----------------------------------------------
-# # Extract protein coding genes
-# sc.dat.filtered.pc.sig <- select.marker (sc.dat=sc.dat.filtered.pc,
-#                                                   stat=diff.exp.stat,
-#                                                   pval.max=0.01,
-#                                                   lfc.min=0.1)
-
-# ###----------------------------------------------
-# # Create prism
-# myPrism.pc.sig <- new.prism(
-#   reference=sc.dat.filtered.pc.sig, 
-#   mixture=bk.dat,
-#   input.type="count.matrix", 
-#   cell.type.labels = cell.type.labels, 
-#   cell.state.labels = cell.type.labels,
-#   key=NULL,
-#   outlier.cut=0.01,
-#     outlier.fraction=0.1
-# )
-
-# ###----------------------------------------------
-# # Run deconvolution    
-# bp.pc.sig.res <- run.prism(prism = myPrism.pc.sig, n.cores=50)
-
-# theta.pc.sig <- get.fraction (bp=bp.pc.sig.res,
-#             which.theta="final",
-#             state.or.type="type")
-
-# ###----------------------------------------------
-# # Save Outputs  
-# cat("-----> SAVING OUTPUT \n")    
-# output_theta.pc.sig = data.frame(theta.pc.sig)
-# output_theta.pc.sig$sample_id <- rownames(output_theta.pc.sig)  
-# output_theta.pc.sig = output_theta.pc.sig %>% select(sample_id, everything())              
-# write.table(output_theta.pc.sig,output_file_pc_sig,sep="\t",quote=FALSE,row.names=FALSE)
